@@ -83,7 +83,7 @@
                         document.getElementById('logout-form').submit()">Logout</a>
                     <a href="{{ url('/home') }}">Tasks</a>
                     <a href="{{ url('/tasks') }}">New Task</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <a href="https://github.com/andela-vdugeri/Laravel-simple-todo">GitHub</a>
                     <form id="logout-form" action="{{ url('/logout') }}" method="POST" style="display: none;">
                         {{ csrf_field() }}
                     </form>
